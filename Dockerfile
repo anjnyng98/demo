@@ -17,7 +17,7 @@ WORKDIR /app
 # COPY --from=builder /build/build/libs/*-SNAPSHOT.jar ./app.jar
 COPY --from=builder /build/build/libs/demo-0.0.1-SNAPSHOT.jar .
 
-EXPOSE 8080
+EXPOSE 8080asdasdasdasdasdsadasdasdasdasdasd
 
 # root 대신 nobody 권한으로 실행
 USER nobody
